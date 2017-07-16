@@ -185,6 +185,7 @@ body {
 .qrcode {
     display: inline-block;
     width: 50%;
+    margin: 0 auto;
     box-sizing: border-box;
     text-align: center;
     vertical-align: top;
