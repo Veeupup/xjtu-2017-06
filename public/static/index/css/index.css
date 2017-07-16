@@ -178,25 +178,6 @@ a {
     background-color: #ecf0f1;
 }
 
-/* sidebar-footer */
-
-.sidebar-footer {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 10vh;
-}
-
-.eeyes-logo {
-    margin: 3vh 5% 2vh;
-    height: 5vh;
-}
-
-.eeyes-logo img {
-    height: 100%;
-}
-
 
 
 /* footer */
