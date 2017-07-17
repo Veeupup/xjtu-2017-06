@@ -35,7 +35,7 @@ body {
 .header-left {
     position: absolute;
     left: 20px;
-    top: 15px;
+    top: 0px;
     z-index: 2;
 }
 
@@ -47,10 +47,11 @@ body {
 .header-center {
     position: absolute;
     left: 10px;
-    top: 9px;
+    top: 0px;
     right: 0;
     font-size: 24px;
     text-align: center;
+    line-height: 50px;
 }
 
 .header-right {
