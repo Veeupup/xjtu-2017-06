@@ -44,5 +44,24 @@
         fingers: 'all'
     });
 
-    
+    /* only for index */
+    (function () {
+        
+        var listener = function () {
+            if ($('.main-content-index').length) {
+                
+                $('.main-content-index-swiper').height(window.innerHeight - $('.header').height());
+                var swiper = new Swiper('.main-content-index-swiper', {
+                    pagination: '.main-content-index-swiper .swiper-pagination',
+                    paginationClickable: true,
+                    direction: 'vertical'
+                });
+                $('.footer').hide();
+            } else {
+                $('.footer').show();
+            }
+        };
+        $(document).on('pjax:end', listener);
+        listener();
+    })();
 })();

@@ -34,26 +34,27 @@ body {
 
 .header-left {
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 20px;
+    top: 15px;
     z-index: 2;
 }
 
 .header-left .header-icon {
-    width: 56px;
+    width: 66px;
     height: 22px;
 }
 
 .header-center {
     position: absolute;
-    left: 0;
+    left: 10px;
     top: 0;
     right: 0;
     text-align: center;
 }
 
 .header-center .header-icon {
-    width: 85px;
+    width: 95px;
+    height: 24px;
 }
 
 .header-right {
