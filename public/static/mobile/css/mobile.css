@@ -47,14 +47,10 @@ body {
 .header-center {
     position: absolute;
     left: 10px;
-    top: 0;
+    top: 9px;
     right: 0;
+    font-size: 24px;
     text-align: center;
-}
-
-.header-center .header-icon {
-    width: 95px;
-    height: 24px;
 }
 
 .header-right {
