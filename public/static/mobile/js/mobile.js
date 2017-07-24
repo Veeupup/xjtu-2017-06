@@ -23,6 +23,7 @@
     $('.sidebar-bg').click(function () {
         hideSidebar();
     });
+
     $(document).pjax('a[data-pjax]', '.main');
     $(document).on('pjax:clicked', function () {
         hideSidebar();
@@ -46,10 +47,8 @@
 
     /* only for index */
     (function () {
-        
         var listener = function () {
             if ($('.main-content-index').length) {
-                
                 $('.main-content-index-swiper').height(window.innerHeight - $('.header').height());
                 var swiper = new Swiper('.main-content-index-swiper', {
                     pagination: '.main-content-index-swiper .swiper-pagination',
